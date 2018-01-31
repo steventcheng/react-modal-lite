@@ -1,0 +1,39 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.flexbox-center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.modal-foreground {
+  width: 450px;
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.close-btn-container {
+  margin-top: -2rem;
+  padding-top: 1rem;
+  height: 2rem;
+  width: 100%;
+  text-align: right;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: -1rem;
+  padding: 0;
+}
