@@ -24,7 +24,7 @@ export default class Modal extends Component {
     enableClickOut: true,
     disableEscape: false,
     onClose: () => {},
-    showClosebutton: true,
+    showClosebutton: false,
     isVisible: false,
   }
 
