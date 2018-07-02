@@ -1,6 +1,6 @@
 {
   "name": "react-modal-lite",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple react modal.",
   "repository": {
     "type": "git",
@@ -11,10 +11,10 @@
     "react": "^15.0.0 || ^16.0.0"
   },
   "dependencies": {
-    "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-inlinesvg": "^0.7.5"
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-inlinesvg": "^0.8.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,20 +26,20 @@
     "email": "scjoy8@gmail.com"
   },
   "devDependencies": {
-    "autoprefixer": "^7.2.5",
+    "autoprefixer": "^8.6.4",
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1",
-    "css-loader": "^0.28.9",
-    "file-loader": "^1.1.6",
-    "postcss-loader": "^2.0.10",
-    "style-loader": "^0.20.1",
-    "url-loader": "^0.6.2",
-    "webpack": "^3.10.0"
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "postcss-loader": "^2.1.5",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.14.0"
   },
   "license": "MIT"
 }
