@@ -10,7 +10,6 @@
 
 .flexbox-center-container {
   display: flex;
-  align-items: center;
   justify-content: center;
   height: 100%;
 }
@@ -20,6 +19,8 @@
   border-radius: 5px;
   padding: 2rem;
   background-color: #fff;
+  margin: 5rem 0;
+  overflow-y: scroll;
 }
 
 .close-btn-container {
