@@ -2,6 +2,10 @@
 
 A React modal.
 
+## Live Example 
+
+https://stackblitz.com/edit/react-hnoowb?embed=1&file=App.js&view=preview
+
 ## Props
 
 **children** `node` (required)
