@@ -9,9 +9,10 @@
   "main": "build/index.js",
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-inlinesvg": "0.8.4"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-inlinesvg": "0.8.4",
+    "react-svg": "^11.2.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
