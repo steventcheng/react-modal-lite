@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import Isvg from 'react-inlinesvg'
+import { ReactSVG } from 'react-svg'
 import iconCloseSvg from './assets/icon-close.svg'
 import './index.css'
 
@@ -47,7 +47,7 @@ const ModalLite = (props) => {
               { props.showCloseButton === true
                 ? <div className='close-btn-container'>
                   <button className='btn-close' onClick={handleCloseModal}>
-                    <Isvg src={iconCloseSvg} />
+                    <ReactSVG src={iconCloseSvg} />
                   </button>
                 </div>
                 : null
